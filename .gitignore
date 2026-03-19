@@ -1,0 +1,29 @@
+# Local virtual environments
+.venv/
+venv/
+
+# Python caches and test artifacts
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Local dataset and generated outputs
+train/
+test/
+labels_imagine-train.csv
+sample_submission.csv
+submission.csv
+
+# Local notes and logs
+logs.txt
+logs.py
+notes.txt
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
